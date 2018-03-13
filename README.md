@@ -1,4 +1,5 @@
 # FIT5032-S2-2018
+
 Proposed Changes to FIT5032
 
 ## Outline
@@ -14,31 +15,85 @@ Proposed Changes to FIT5032
 |  7   | Client Side JavaScript Framework       | Microsoft Identity                                  |                                                   |
 |  8   | Validation & Usability                 | Sending Email & File Upload                         |                                                   |
 |  9   | Optimisation                           | Optimisation                                        |                                                   |
-|  10  | Web Application Security               | AngularJS                                           |                                                   |
+|  10  | Web Application Security               | Modern JavaScript Web Development Approach          |                                                   |
 |  11  | Deployment                             | Testing & Deployment                                | Introduced basic testing                          |
 |  12  | Exam Revision                          | No change                                           | No change                                         |
 
 
+### Provided Project Files
+
+| Week | Provided Solution Files                           |
+|:----:|:--------------------------------------------------|
+|  1   | Project with HTML Elements in Razor View          |
+|  2   | Project with Simple Bootstrap Showcase            |
+|  3   | Project with ASP.NET Web Forms                    |
+|      | Project with ASP.NET MVC                          |
+|  4   | Project with DatabaseFirst Approach               |
+|      | Project with Code First Approach                  |
+|  5   | jQuery DatePicker (using JQueryUI Library)        |
+|      | DataTables                                        |
+|  6   | Sample Page with Custom Validator using ViewModel |
+|  7   | Login                                             |
+|  8   | Send Email                                        |
+|      | FileUpload Storing Path in Database               |
+|      | FileUploading Strong Image as BLOB in Database    |
+|      | Editing Profile at Login (Adding Profile Picture) |
+|  9   | None                                              |
+|  10  | AngularJS                                         |
+|      | ReactJS                                           |
+|      | VueJS                                             |
+|  11  | None                                              |
+|  12  | None                                              |
+
 ### Summary of DoubtFire Submissions
 
-|Week | DoubtFire Submission | Task |
-|---- |----------------------|------|
-|1    | Using HTML Helpers   | PASS |
-|2    | Using Bootstrap      | PASS |
-|3    | <ul><li>Document detailing the difference between Web Forms vs MVC</li><li>Screenshot of form submission in MVC</li></ul> | PASS |
-|4    | <ul><li>Database First Approach</li><li>Code First Approach</li><li>Document detailing the difference between Code First and Database first</li></ul> | PASS | 
-|5    | <ul><li>jQuery DatePicker</li><li>jQuery DataTables</li></ul> | PASS |
-|6    | Custom Validation with View Model | PASS |
-|7    | Login feature | PASS | 
-|8    | Sending email to multiple users | PASS | 
-|9    | <ul><li>Screenshot of YSlow report of their web application</li><li>Document detailing how their web application can be improved</li></ul> | PASS |
-|10   | AngularJS or similar | PASS |
-|11   | None | |
-|12   | None | |
+| Week | DoubtFire Submission                                                                    | Task |
+|:----:|:----------------------------------------------------------------------------------------|:-----|
+|  1   | Using HTML Helpers                                                                      | PASS |
+|  2   | Using Bootstrap                                                                         | PASS |
+|  3   | Document detailing the difference between Web Forms vs MVC                              | PASS |
+|      | Screenshot of form submission in MVC                                                    | PASS |
+|  4   | Database First Approach                                                                 | PASS |
+|      | Code First Approach                                                                     | PASS |
+|      | Document detailing the advantages & disadvantages between Code First and Database First | PASS |
+|  5   | jQuery DatePicker                                                                       | PASS |
+|      | jQuery DataTables                                                                       | PASS |
+|      | Document detailing the advantages of using jQuery, jQueryUI, DataTables                 | PASS |
+|  6   | Custom Validation with View Model                                                       | PASS |
+|  7   | Login feature                                                                           | PASS |
+|  8   | Sending email to multiple users                                                         | PASS |
+|  9   | Screenshot of YSlow report of their web application                                     | PASS |
+|      | Document detailing how their web application can be improved                            | PASS |
+|  10  | Modern Web Development (AngularJS, ReactJS or VueJS)                                    | PASS |
+|      | Document detailing modern web development approach in comparison to MVC                 | PASS |
+|  11  | None                                                                                    | NONE |
+|  12  | None                                                                                    | NONE |
+
+### Summary of Challenges
+
+- Challenge exercises are broken down into several difficulty levels. I would expect that less than 5% of students would be able to do the Expert level challenge. 
+
+- No solutions will be provided for challenge exercises.
+
+| Week | Provided Solution Files                                                |
+|:----:|:-----------------------------------------------------------------------|
+|  1   | None                                                                   |
+|  2   | **Easy** - Use Responsive Images and Youtube Embeds                    |
+|      | **Medium**  - Use Foundation CSS Framework,Yahoo Pure, Materialize CSS |
+|      | **Hard** - Use CSS Media Queries to manually create resposiveness      |
+|      | **Expert** - Use SASS or LESS                                          |
+|  3   | Project with ASP.NET Web Forms                                         |
+|      | Project with ASP.NET MVC                                               |
+|  4   | Project with DatabaseFirst Approach                                    |
+|  10  | **Easy** - Using Google Cloud                                          |
+|      | **Medium** - Configuration of Domain Name                              |
+|      | **Hard** - Configuring HTTPS using either SSL Cert or CloudFlare       |
+|      | Expert - Deployment using Docker                                       |
+
 
 ### Proposed Changes
 
-In the previous materials, one issue is that we did not "progressive" create our web application. This created the impression to the students that they should "create" & "recreate" their project multiple times in order to do the project properly. So, my suggestion is that we progressive build our web application to show case to them how its done. So we will build upon 1 main project. 
+In the previous materials, one issue is that we did not "progressively" create our web application. This created the impression to the students that they should "create" & "recreate" their project multiple times in order to do the project properly. So, my suggestion is that we progressively build our web application to show case to them how its done. So we will build upon 1 main project. 
 
 One other common question, is that the lectures seem to be more focused on "coding" instead of the theory. It seems it is not clear to the students that it is important to have a theoractical understanding and also the ability to code.
 

@@ -1,0 +1,1599 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body {
+  max-width: 980px;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 45px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headeranchor-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .headeranchor-link:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .headeranchor,
+.markdown-body h2 .headeranchor,
+.markdown-body h3 .headeranchor,
+.markdown-body h4 .headeranchor,
+.markdown-body h5 .headeranchor,
+.markdown-body h6 .headeranchor {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .headeranchor-link,
+.markdown-body h2:hover .headeranchor-link,
+.markdown-body h3:hover .headeranchor-link,
+.markdown-body h4:hover .headeranchor-link,
+.markdown-body h5:hover .headeranchor-link,
+.markdown-body h6:hover .headeranchor-link {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .headeranchor-link .headeranchor,
+.markdown-body h2:hover .headeranchor-link .headeranchor,
+.markdown-body h3:hover .headeranchor-link .headeranchor,
+.markdown-body h4:hover .headeranchor-link .headeranchor,
+.markdown-body h5:hover .headeranchor-link .headeranchor,
+.markdown-body h6:hover .headeranchor-link .headeranchor {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* Multimarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><title>README</title></head><body><article class="markdown-body"><h1 id="fit5032-s2-2018"><a name="user-content-fit5032-s2-2018" href="#fit5032-s2-2018" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>FIT5032-S2-2018</h1>
+<p>Proposed Changes to FIT5032</p>
+<h2 id="outline"><a name="user-content-outline" href="#outline" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Outline</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Week</th>
+<th align="left">Previous</th>
+<th align="left">Suggested</th>
+<th align="left">Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="left">Web Site Design &amp; Usability</td>
+<td align="left">Introduction to Web Development using Visual Studio</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="left">Introduction to Form Based Application</td>
+<td align="left">The Front End &amp; Usability</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="left">Web Forms vs ASP.NET MVC</td>
+<td align="left">No Change</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="left">jQuery, DataTables &amp; jQueryUI</td>
+<td align="left">Fundamental Client Side JavaScript</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="left">Email &amp; File Upload</td>
+<td align="left">Validation &amp; Usability</td>
+<td align="left">Moved so that we can demo send email to all users</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="left">Client Side JavaScript Framework</td>
+<td align="left">Microsoft Identity</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="left">Validation &amp; Usability</td>
+<td align="left">Sending Email &amp; File Upload</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="left">Optimisation</td>
+<td align="left">Optimisation</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="left">Web Application Security</td>
+<td align="left">Modern JavaScript Web Development Approach</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="left">Deployment</td>
+<td align="left">Testing &amp; Deployment</td>
+<td align="left">Introduced basic testing</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="left">Exam Revision</td>
+<td align="left">No change</td>
+<td align="left">No change</td>
+</tr>
+</tbody>
+</table>
+<h3 id="provided-project-files"><a name="user-content-provided-project-files" href="#provided-project-files" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Provided Project Files</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Week</th>
+<th align="left">Provided Solution Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="left">Project with HTML Elements in Razor View</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="left">Project with Simple Bootstrap Showcase</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="left">Project with ASP.NET Web Forms</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">Project with ASP.NET MVC</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="left">Project with DatabaseFirst Approach</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">Project with Code First Approach</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="left">jQuery DatePicker (using JQueryUI Library)</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">DataTables</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="left">Sample Page with Custom Validator using ViewModel</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="left">Login</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="left">Send Email</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">FileUpload Storing Path in Database</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">FileUploading Strong Image as BLOB in Database</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">Editing Profile at Login (Adding Profile Picture)</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="left">None</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="left">AngularJS</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">ReactJS</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">VueJS</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="left">None</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="left">None</td>
+</tr>
+</tbody>
+</table>
+<h3 id="summary-of-doubtfire-submissions"><a name="user-content-summary-of-doubtfire-submissions" href="#summary-of-doubtfire-submissions" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Summary of DoubtFire Submissions</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Week</th>
+<th align="left">DoubtFire Submission</th>
+<th align="left">Task</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="left">Using HTML Helpers</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="left">Using Bootstrap</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="left">Document detailing the difference between Web Forms vs MVC</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">Screenshot of form submission in MVC</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="left">Database First Approach</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">Code First Approach</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">Document detailing the advantages &amp; disadvantages between Code First and Database First</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="left">jQuery DatePicker</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">jQuery DataTables</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">Document detailing the advantages of using jQuery, jQueryUI, DataTables</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="left">Custom Validation with View Model</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="left">Login feature</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="left">Sending email to multiple users</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="left">Screenshot of YSlow report of their web application</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">Document detailing how their web application can be improved</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="left">Modern Web Development (AngularJS, ReactJS or VueJS)</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">Document detailing modern web development approach in comparison to MVC</td>
+<td align="left">PASS</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="left">None</td>
+<td align="left">NONE</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="left">None</td>
+<td align="left">NONE</td>
+</tr>
+</tbody>
+</table>
+<h3 id="summary-of-challenges"><a name="user-content-summary-of-challenges" href="#summary-of-challenges" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Summary of Challenges</h3>
+<ul>
+<li>
+<p>Challenge exercises are broken down into several difficulty levels. I would expect that less than 5% of students would be able to do the Expert level challenge. </p>
+</li>
+<li>
+<p>No solutions will be provided for challenge exercises.</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">Week</th>
+<th align="left">Provided Solution Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="left">None</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="left"><strong>Easy</strong> - Use Responsive Images and Youtube Embeds</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left"><strong>Medium</strong>  - Use Foundation CSS Framework,Yahoo Pure, Materialize CSS</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left"><strong>Hard</strong> - Use CSS Media Queries to manually create resposiveness</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left"><strong>Expert</strong> - Use SASS or LESS</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="left">Project with ASP.NET Web Forms</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">Project with ASP.NET MVC</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="left">Project with DatabaseFirst Approach</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="left"><strong>Easy</strong> - Using Google Cloud</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left"><strong>Medium</strong> - Configuration of Domain Name</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left"><strong>Hard</strong> - Configuring HTTPS using either SSL Cert or CloudFlare</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">Expert - Deployment using Docker</td>
+</tr>
+</tbody>
+</table>
+<h3 id="proposed-changes"><a name="user-content-proposed-changes" href="#proposed-changes" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Proposed Changes</h3>
+<p>In the previous materials, one issue is that we did not &ldquo;progressive&rdquo; create our web application. This created the impression to the students that they should &ldquo;create&rdquo; &amp; &ldquo;recreate&rdquo; their project multiple times in order to do the project properly. So, my suggestion is that we progressive build our web application to show case to them how its done. So we will build upon 1 main project. </p>
+<p>One other common question, is that the lectures seem to be more focused on &ldquo;coding&rdquo; instead of the theory. It seems it is not clear to the students that it is important to have a theoractical understanding and also the ability to code.</p>
+<p>Here, we need to emphasis the concept of a full stack developer, in which case, they should at least have a solid understanding of various technologies.</p>
+<p>For advance students, my suggestion to introduce challenge exercise for each student with 4 levels of difficulty each week. </p>
+<ul>
+<li>Easy - (Most students should be able able to complete this with minimal research)</li>
+<li>Medium - For students that want to learn more.</li>
+<li>Hard - For students that want to learn more.</li>
+<li>Expert - Experience &amp; Research required to complete this task. Only recommended for advance students.</li>
+</ul>
+<p>The reason for this is because often times students with a lot of experience in web development may find it &ldquo;too&rdquo; easy. Of couse we do not want that. I expect less than 10% of students would be able to complete the expert level challenges. </p>
+<h3 id="background-materials-pre-reading"><a name="user-content-background-materials-pre-reading" href="#background-materials-pre-reading" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Background Materials &amp; Pre-Reading</h3>
+<p>My suggestion is to either re-write or rehash all the materials. Most of the materials are seriously out of date are and there some examples which are incorrect.</p>
+<p>I would prefer if the students are showed the correct resources.</p>
+<p>Mozzila web developer has been the go to resource for proper way of learning. </p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Learn">https://developer.mozilla.org/en-US/docs/Learn</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">https://developer.mozilla.org/en-US/docs/Web/HTML</a></p>
+<p>I am personally not a big fan of using w3schools as they have been known to provide incorrect information and they tend to take a lot of shortcuts in web development which is frowned upon. (This was like a few years ago, they have improved a lot since then)</p>
+<p>One issue is that instead of providing &ldquo;full projects&rdquo; on Moodle we should provide source codes instead. The reason we should do this is because if we do not students will graduate under the impression that they will always need to share around 100 MB files for projects. So, instead of uploading full projects I sugges that we provide sources will run instructions for them.</p>
+<h3 id="week-1-web-site-design-usability"><a name="user-content-week-1-web-site-design-usability" href="#week-1-web-site-design-usability" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week 1 (Web Site Design &amp; Usability)</h3>
+<p>Proposed change to</p>
+<h3 id="week-1-introduction-to-web-development-visual-studio"><a name="user-content-week-1-introduction-to-web-development-visual-studio" href="#week-1-introduction-to-web-development-visual-studio" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week 1 (Introduction to Web Development &amp; Visual Studio)</h3>
+<p>The pre-requisite reading this week is - HTML</p>
+<ul>
+<li>
+<p><a href="https://developer.mozilla.org/en-US/docs/Learn">https://developer.mozilla.org/en-US/docs/Learn</a></p>
+</li>
+<li>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">https://developer.mozilla.org/en-US/docs/Web/HTML</a></p>
+</li>
+</ul>
+<h3 id="proposed-learning-objective"><a name="user-content-proposed-learning-objective" href="#proposed-learning-objective" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Proposed Learning Objective</h3>
+<ul>
+<li>Basic HTML features. Form features</li>
+<li>Button, Select Box, TextArea and etc</li>
+<li>How to use HTMLHelpers in Visual Studio.</li>
+</ul>
+<h4 id="doubtfire"><a name="user-content-doubtfire" href="#doubtfire" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>DoubtFire</h4>
+<ul>
+<li>Basic HTML features inside Visual Studio using HTMLHelpers</li>
+</ul>
+<p>Here we need to place an emphasis on how the state of the web is constantly evolving. Here, we create a stater project. </p>
+<p>We show how to use certain features of the IDE. For example, how to use the Auto complete feature, how to use Auto Format and various things. How to use the Peek tool. How to look at the API.</p>
+<p>This is just to get them used to how to use an Enterprise level IDE. Show them the benefits of using an IDE instead of using BlueJ or notepad.</p>
+<p>We explain how the current project is and the various items. We point out to them in which week they will learn how to achieve certain features.</p>
+<p>For this week, we introduce them to multiple reading materials. For example,<br />
+- How to use version handling (Git) - Introduce them to tools website like GitHub and explain how enterprise tools like SourceTree and Jira</p>
+<h4 id="challenge-exercise-for-students"><a name="user-content-challenge-exercise-for-students" href="#challenge-exercise-for-students" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Challenge exercise for students.</h4>
+<ul>
+<li>Set up your own Git repository using Github.</li>
+</ul>
+<h3 id="week-2-introduction-to-form-based-application"><a name="user-content-week-2-introduction-to-form-based-application" href="#week-2-introduction-to-form-based-application" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week 2 (Introduction to Form-based Application)</h3>
+<p>Proposed changed to</p>
+<h3 id="week-2-the-front-end-usability"><a name="user-content-week-2-the-front-end-usability" href="#week-2-the-front-end-usability" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week 2 (The Front End &amp; Usability)</h3>
+<p>The pre-requisite reading this week is - CSS</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">https://developer.mozilla.org/en-US/docs/Web/CSS</a></p>
+<h4 id="proposed-learning-objective_1"><a name="user-content-proposed-learning-objective_1" href="#proposed-learning-objective_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Proposed Learning Objective</h4>
+<ul>
+<li>Understand the difference between the various HTML standards.</li>
+<li>Understand how the nature of responsiveness.</li>
+<li>Understand that each browser behaves differently.</li>
+<li>Modern web design principles. Usability. </li>
+<li>Understand how to use developer tools.</li>
+<li>How to use ASP.NET HTMLHelpers in combination with Bootstrap</li>
+</ul>
+<h4 id="doubtfire-task"><a name="user-content-doubtfire-task" href="#doubtfire-task" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>DoubtFire Task</h4>
+<ul>
+<li>Using simple Bootstrap Feature</li>
+</ul>
+<p>My suggestion for this week, is to introduce to them a front end framework. Either using Bootstrap or Foundation. We show them how design plays a role in creating a web application and more important how to create a responsive web application. So the objective of this lab is two fold, we not only teach them CSS, we also teach them how to use a front end framework. </p>
+<p>One easy thing that we can show them, is that how the select box looks and feels different in Safari vs Chrome and etc. How this will impact user experience etc. Overall its is more important for them to understand how to use developer tools.</p>
+<p>We also mention that we will show them regarding the current UI trends later in the unit which includes React, Angular and VueJS.</p>
+<p>The sample projects for this week, will show them how a simple web application will look on various resolutions and how responsiveness is achieved. Tell them about how VS projects by default uses bootstrap.</p>
+<p>We also introduce them to developer tools that allows them to edit CSS live.</p>
+<p>My previous guide was written for Bootstrap 3. Bootstrap 4 is now becoming the standard. Starting next year, most developers would have adopted it.</p>
+<h4 id="challenge-exercise-for-students_1"><a name="user-content-challenge-exercise-for-students_1" href="#challenge-exercise-for-students_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Challenge Exercise for Students</h4>
+<ul>
+<li>Easy - Using responsive images and Youtube Embeds with Bootstrap</li>
+<li>Medium - Using Foundation or <a href="https://github.com/yahoo/pure">https://github.com/yahoo/pure</a></li>
+<li>Hard - Using CSS media queries and flexboxes to manually create a reponsive UI (CSS3)</li>
+<li>Expert - Concept of CSS preprocessors. (Less VS SASS)</li>
+</ul>
+<h3 id="week-3-web-forms-vs-aspnet-mvc"><a name="user-content-week-3-web-forms-vs-aspnet-mvc" href="#week-3-web-forms-vs-aspnet-mvc" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week 3 (Web Forms vs ASP.NET MVC)</h3>
+<h4 id="proposed-learning-objective_2"><a name="user-content-proposed-learning-objective_2" href="#proposed-learning-objective_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Proposed Learning Objective</h4>
+<ul>
+<li>Understand how Web Forms differs from MVC</li>
+<li>Understand the advantages of the MVC.</li>
+</ul>
+<h4 id="doubtfire-submission"><a name="user-content-doubtfire-submission" href="#doubtfire-submission" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>DoubtFire Submission</h4>
+<ul>
+<li>A table describing how WebForms vs ASP.NET differs in terms of developing.</li>
+<li>MVC project submission with the processing of a simple form.</li>
+</ul>
+<p>For this Week 3, we need to make sure the students really understand the MVC architecture in comparison to the traditional ASP.NET (Web Forms). The main problem with this is because students that are fairly new to programming have no idea what the advantages are. Most of the definitions given are not clear enough for the students to undertand. This is even more true because terms like &ldquo;ViewState&rdquo; is used when comparing two of them.</p>
+<p>In my opinion we can describe it in an easier way so that the students can understand.</p>
+<p>For example, traditionally when developing web applications, each page would have a &ldquo;CodeBehind&rdquo; that tells what happens when a certain action takes place. So, every single page that is created have a CodeBehind. When the MVC comes, into play the thought process is very different. So, instead of having backing codes behind each page, these pages have actions. The main issue here is that people have different opinions of the MVC. We need to use a proper Microsoft resource.</p>
+<h4 id="provided-project"><a name="user-content-provided-project" href="#provided-project" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Provided Project</h4>
+<p>The lab showcase for this week, would require <em>two</em> projects. One project done using Web Forms and another using the MVC pattern. We show case how the MVC will increase the testability of an application. </p>
+<h3 id="week-4-aspnet-mvc-application"><a name="user-content-week-4-aspnet-mvc-application" href="#week-4-aspnet-mvc-application" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week 4 (ASP.NET MVC Application)</h3>
+<p>Prerequisite reading - Programming</p>
+<h4 id="proposed-learning-objective_3"><a name="user-content-proposed-learning-objective_3" href="#proposed-learning-objective_3" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Proposed Learning Objective</h4>
+<ul>
+<li>Understanding basics of programming in in C#. Features that C# have like Linq.</li>
+<li>Understand the difference between the Database First &amp; Code First approach</li>
+<li>Understand the Scaffolding framework.</li>
+<li>Understand the MVC Framework in more detail. </li>
+</ul>
+<h3 id="doubtfire-submission_1"><a name="user-content-doubtfire-submission_1" href="#doubtfire-submission_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>DoubtFire Submission</h3>
+<ul>
+<li>DatabaseFirst approach</li>
+<li>CodeFirst approach</li>
+<li>Document that details the difference between two approaches.</li>
+</ul>
+<p>The main objective this week was to show case Code First vs Database First. Here, the main issue was that the students was only shown the Database First approach, they were not shown the CodeFirst approach.</p>
+<p>So, for the lab demo this week, we will show them two approaches. One done using CodeFirst and another using DatabaseFirst.</p>
+<p>In the case of the Database first approach, we need to place an emphasis of selecting the correct data type. Most students that completed database should have a good understanding of the database selection.</p>
+<h4 id="sample-project"><a name="user-content-sample-project" href="#sample-project" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Sample Project</h4>
+<p>So for this week, we need two projects. One project that uses the Database First approach and another using Code First.</p>
+<p>We also tell them the advantages and disadvantages of each approach. </p>
+<p>One important thing that was not pointed out is the importance of the web config.</p>
+<p>Here we need to emphasis on good programming practices regarding how to properly do something. Most sutdents that did the database first approach did not think carefully and rushed into using the Scaffolding framework.</p>
+<p>Some concepts here were not well explained to the students.</p>
+<p>For example<br />
+- ViewBag<br />
+- More importantly how the GET and POST works in the MVC framework.</p>
+<h4 id="challenges"><a name="user-content-challenges" href="#challenges" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Challenges</h4>
+<ul>
+<li>Easy - Returning information with ViewBag</li>
+<li>Medium - Instead of using 2 tables, we now introduce 3 table and a many to many relationship.</li>
+<li>Hard - Obtaining information with Linq.</li>
+<li>Expert - How to use PM in Visual Studio to update the model in CodeFirst approach.</li>
+</ul>
+<h3 id="week-5-fundamental-client-side-javascript"><a name="user-content-week-5-fundamental-client-side-javascript" href="#week-5-fundamental-client-side-javascript" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week 5 (Fundamental Client Side JavaScript)</h3>
+<p>Prerequisite Reading - Fundamental JavaScript</p>
+<p><a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">https://developer.mozilla.org/bm/docs/Web/JavaScript</a></p>
+<h4 id="proposed-learning-objective_4"><a name="user-content-proposed-learning-objective_4" href="#proposed-learning-objective_4" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Proposed Learning Objective</h4>
+<ul>
+<li>Learning Basic JavaScript</li>
+<li>Learning Client Side Scripts.</li>
+<li>Learning how to use NuGet package manager.</li>
+<li>Learning how to use DataTables</li>
+<li>Learning how to use DatePicker</li>
+</ul>
+<h3 id="doubtfire-submission_2"><a name="user-content-doubtfire-submission_2" href="#doubtfire-submission_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>DoubtFire Submission</h3>
+<ul>
+<li>DatePicker </li>
+<li>DataTables</li>
+<li>Document that explains what is JavaScript in comparison to other language</li>
+</ul>
+<p>Most students have difficulties understand what JavaScript is. We need to explain to them how the scene has changed so much and JavaScript is very important. So we will point them to the correct learning resources for JavaScript. We should place an emphasis that JavaScript is not Java. This has been a very common mistake so far. </p>
+<p>There is also a need to tell them the difference between using JQuery UI and things like that. Materials need to be updated to themm the bundles and etc.</p>
+<p>We need to tell them regarding various JavaScript standards. EMCA6 for example.</p>
+<p>Before we start this week, we should introduce them to what JavaScript is. These days, JavaScript is a monster. </p>
+<p>For this lab, I suggest we introduce the NuGet package manager to them. The current materials are still based on manually downloading the various dependencies. This in my opinion should be avoided.</p>
+<p>The other issue is that the lab to showcase how to use DataTables needs to be updated as the examples still showed an older version DataTables.</p>
+<h4 id="sample-project_1"><a name="user-content-sample-project_1" href="#sample-project_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Sample Project</h4>
+<ul>
+<li>One project with Datepicker &amp; DataTables</li>
+</ul>
+<h4 id="challenges_1"><a name="user-content-challenges_1" href="#challenges_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Challenges</h4>
+<ul>
+<li>Easy - Using jQuery (Simple Feature)</li>
+<li>Medium - Customise DatePicker (Culture API)</li>
+<li>Hard - Server side implementation of searching with Linq</li>
+<li>Expert - Customise DataTables with Server Side Loading (using ODATA)</li>
+</ul>
+<h3 id="week-6-email-file-upload"><a name="user-content-week-6-email-file-upload" href="#week-6-email-file-upload" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week 6 (Email &amp; File Upload)</h3>
+<p>DoubtFire Submission<br />
+- Email<br />
+- FileUpload</p>
+<p>We should this lab slightly. My suggestion is to teach them about Login &amp; Validation first before this). This is so that we can not only teach them how to validate the email form that we will be making and also how to batch send email. </p>
+<p>One issue for this week is that some of the assignment requirements were not specifically shown to the students. For example, most students have troubles completing the feature where they can email to multiple users. </p>
+<h4 id="project-examples"><a name="user-content-project-examples" href="#project-examples" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Project Examples</h4>
+<ul>
+<li>Email (Show them how to send email to multiple users)</li>
+<li>File Upload (With ViewModel Validation, Each File linked to the person who uploaded it)</li>
+<li>File Upload (One stored as a BLOB, another stored using the unique path)</li>
+</ul>
+<h4 id="challenges_2"><a name="user-content-challenges_2" href="#challenges_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Challenges</h4>
+<ul>
+<li>Easy - Using gmail instead of Monash SMTP</li>
+<li>Medium - Tailored Email using CSS template</li>
+<li>Hard - Creating time based sending email. - Cron or etc. (For example send email to user when there is an item, in the Shopping cart that has not been checked out after 3 days.)</li>
+<li>Expert - Using SendGrid </li>
+</ul>
+<h3 id="week-7-client-side-javascript-frameworks"><a name="user-content-week-7-client-side-javascript-frameworks" href="#week-7-client-side-javascript-frameworks" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week 7 (Client Side JavaScript Frameworks)</h3>
+<h4 id="proposed-learning-object"><a name="user-content-proposed-learning-object" href="#proposed-learning-object" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Proposed Learning Object</h4>
+<ul>
+<li>Understanding modern web development</li>
+<li>Understanding the use of WebAPI</li>
+<li>Understanding the benefits of client side frameworks</li>
+</ul>
+<h4 id="doubtfire-submission_3"><a name="user-content-doubtfire-submission_3" href="#doubtfire-submission_3" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>DoubtFire Submission</h4>
+<ul>
+<li>AngularJS</li>
+</ul>
+<p>The main problem with this week is students do not understand that when using AngularJS, the way of doing this is different. I think we should move this to Week 11 or Week 12. We need to place emphasis that the way we develop a web application using Angular is very different. </p>
+<p>The project previously asked to create &ldquo;Interfaces&rdquo; which is actually not needed. Before we approach this lab, we need to place emphasis on how the RESTful design works. Perhaps we need materials from Mobile and Distributed System. We need to place an emphasis on how the &ldquo;WebAPI&rdquo; is important and how by creating the WebAPI we distinguished the difference between the server side and client side.</p>
+<p>We also relate how a WebAPI is also mentioned in the other subject and how it is very useful for the development of modern web applications.</p>
+<p>We need to introduce a tool that allows them to test these RESTful end points. Postman is a good example of a tool that allows us to do it. We should use POSTMAN in the lectures and show them the information returned from the various HTTP request like GET, POST, PUT and DELETE.</p>
+<p><a href="https://apiary.io/">https://apiary.io/</a></p>
+<h4 id="challenges_3"><a name="user-content-challenges_3" href="#challenges_3" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Challenges</h4>
+<ul>
+<li>Easy - Understanding Programming in JavaScript. There is a need to know that JS is a multi paradigm language.</li>
+<li>Medium - Using NPM or Yarn</li>
+<li>Hard - Using NPM libraries like Axios, or fetch Polyfill, Babel and etc. </li>
+<li>Expert - Using ReactJS (Thinking in React)</li>
+</ul>
+<h3 id="week-8-validation-usability"><a name="user-content-week-8-validation-usability" href="#week-8-validation-usability" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week 8 (Validation &amp; Usability)</h3>
+<p>For this lab, we need to teach the concept of ViewModel. Where and when to use it. Etc.</p>
+<h4 id="sample-project_2"><a name="user-content-sample-project_2" href="#sample-project_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Sample Project</h4>
+<h4 id="challenges_4"><a name="user-content-challenges_4" href="#challenges_4" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Challenges</h4>
+<h3 id="week-9-optimisation"><a name="user-content-week-9-optimisation" href="#week-9-optimisation" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week 9 (Optimisation)</h3>
+<p>Here, the problem with this lab is the the purpose of optimisation is not seen by the students. Here, I propose that the students or the browsers should be installed with the plugin called &ldquo;YSlow&rdquo;. This plugin will students to see how they can optimise their web site. We will show them what YSlow reports on various websites and how they can improve on it.</p>
+<p>Projects for this weeek will demo how to improve optimisation.</p>
+<h3 id="week-10-web-application-security"><a name="user-content-week-10-web-application-security" href="#week-10-web-application-security" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week 10 (Web Application Security)</h3>
+<h4 id="proposed-learning-objective_5"><a name="user-content-proposed-learning-objective_5" href="#proposed-learning-objective_5" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Proposed Learning Objective</h4>
+<p>I think we should move this lab, to week 6 instead. So instead, of doing Angular in Week 7 we do Login and etc in Week 6 and Emailing in Week 7. So, during the email lab, we can show them how to send email to multiple users. This lab involves using Microsoft Identity. </p>
+<p>One important thing that was missed is that we did not teach students how to upload a specific user picture. So, they did alot of Googling.</p>
+<p>Here I propose two projects. One project will use Chris approach where there is one central database. Another approach is to use two database, one of the user another for the business logic.</p>
+<h4 id="challenges_5"><a name="user-content-challenges_5" href="#challenges_5" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Challenges</h4>
+<ul>
+<li>Hard - Using Facebook or Google Login </li>
+<li>Expert - Using Auth0 to login.</li>
+</ul>
+<h3 id="week-11-testing-deployment"><a name="user-content-week-11-testing-deployment" href="#week-11-testing-deployment" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week 11 (Testing &amp; Deployment)</h3>
+<p>My suggestion for this week is to introduce testing and deployment. </p>
+<p>We will teach them how to test certain features of the application. This can either be done with unit testing or integration testing. One of the advantages of the MVC is to increase testability however this is not shown to the students.</p>
+<ul>
+<li>Easy - Deployement to Google Cloud</li>
+<li>Medium - Domain Name Mapping</li>
+<li>Hard - Hot Pushing to repo (Deployment Hooks)</li>
+<li>Expert - Using Continous Integration (Either Travis or CircleCI)</li>
+</ul>
+<h3 id="week-12-revision"><a name="user-content-week-12-revision" href="#week-12-revision" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Week 12 (Revision)</h3>
+<p>No changes.</p></article></body></html>
