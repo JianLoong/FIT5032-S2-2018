@@ -75,9 +75,9 @@ Proposed Changes to FIT5032
 
 - No solutions will be provided for challenge exercises.
 
-| Week | Provided Solution Files                                                |
+| Week | Challenge                                                              |
 |:----:|:-----------------------------------------------------------------------|
-|  1   | None                                                                   |
+|  1   | **Medium** - Using version control. (Bitbucket or Github)              |
 |  2   | **Easy** - Use Responsive Images and Youtube Embeds                    |
 |      | **Medium**  - Use Foundation CSS Framework,Yahoo Pure, Materialize CSS |
 |      | **Hard** - Use CSS Media Queries to manually create resposiveness      |
