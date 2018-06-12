@@ -13,10 +13,10 @@ Proposed Changes to FIT5032
 |  5   | jQuery, DataTables & jQueryUI          | Fundamental Client Side JavaScript                  |                                                   |
 |  6   | Email & File Upload                    | Validation & Usability                              | Moved so that we can demo send email to all users |
 |  7   | Client Side JavaScript Framework       | Microsoft Identity                                  |                                                   |
-|  8   | Validation & Usability                 | Sending Email & File Upload                         |                                                   |
+|  8   | Validation                             | Sending Email & File Upload                         |                                                   |
 |  9   | Optimisation                           | Optimisation                                        |                                                   |
 |  10  | Web Application Security               | Modern JavaScript Web Development Approach          |                                                   |
-|  11  | Deployment                             | Testing & Deployment                                | Introduced basic testing                          |
+|  11  | Deployment                             | Testing, Deployment and Evolution                   | Introduced basic testing                          |
 |  12  | Exam Revision                          | No change                                           | No change                                         |
 
 
