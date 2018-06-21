@@ -4,23 +4,25 @@ Proposed Changes to FIT5032
 
 ## Outline
 
-| Week | Previous                               | Suggested                                           | Reason                                            |
-|:----:|:---------------------------------------|:----------------------------------------------------|:--------------------------------------------------|
-|  1   | Web Site Design & Usability            | Introduction to Web Development using Visual Studio |                                                   |
-|  2   | Introduction to Form Based Application | The Front End & Usability                           |                                                   |
-|  3   | Web Forms vs ASP.NET MVC               | No Change                                           |                                                   |
-|  4   | ASP.NET MVC Application                | ASP.NET MVC Database First & CodeFirst              |                                                   |
-|  5   | jQuery, DataTables & jQueryUI          | Fundamental Client Side JavaScript                  |                                                   |
-|  6   | Email & File Upload                    | Validation & Usability                              | Moved so that we can demo send email to all users |
-|  7   | Client Side JavaScript Framework       | Microsoft Identity                                  |                                                   |
-|  8   | Validation                             | Sending Email & File Upload                         |                                                   |
-|  9   | Optimisation                           | Optimisation                                        |                                                   |
-|  10  | Web Application Security               | Modern JavaScript Web Development Approach          |                                                   |
-|  11  | Deployment                             | Testing, Deployment and Evolution                   | Introduced basic testing                          |
-|  12  | Exam Revision                          | No change                                           | No change                                         |
+| Week | Previous                               | Suggested                                  | Tutorial                                          |
+|:----:|:---------------------------------------|:-------------------------------------------|:--------------------------------------------------|
+|  1   | Web Site Design & Usability            | Introduction to Web Development & ASP.NET  | Introduction to Visual Studio 2017                |
+|  2   | Introduction to Form Based Application | The Front End, Usability & Accessibility   |                                                   |
+|  3   | Web Forms vs ASP.NET MVC               | Introduction to C#                         |                                                   |
+|  4   | ASP.NET MVC Application                | ASP.NET MVC Database First & CodeFirst     |                                                   |
+|  5   | jQuery, DataTables & jQueryUI          | Fundamental Client Side JavaScript         |                                                   |
+|  6   | Email & File Upload                    | Validation & Usability                     | Moved so that we can demo send email to all users |
+|  7   | Client Side JavaScript Framework       | Microsoft Identity                         |                                                   |
+|  8   | Validation                             | Sending Email & File Upload                |                                                   |
+|  9   | Optimisation                           | Optimisation                               |                                                   |
+|  10  | Web Application Security               | Modern JavaScript Web Development Approach |                                                   |
+|  11  | Deployment                             | Testing, Deployment and Evolution          | Introduced basic testing                          |
+|  12  | Exam Revision                          | No change                                  | No change                                         |
 
 
 ### Provided Project Files
+
+Solution files might not be provided. Even if these are provided they will be provided as a repo where the students will either do a clone or pull.
 
 | Week | Provided Solution Files                           |
 |:----:|:--------------------------------------------------|
