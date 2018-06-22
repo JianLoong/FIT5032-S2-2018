@@ -1,51 +1,22 @@
 # FIT5032-S2-2018
 
-Proposed Changes to FIT5032
-
 ## Outline
 
-| Week | Previous                               | Suggested                                  | Tutorial                                          |
-|:----:|:---------------------------------------|:-------------------------------------------|:--------------------------------------------------|
-|  1   | Web Site Design & Usability            | Introduction to Web Development & ASP.NET  | Introduction to Visual Studio 2017                |
-|  2   | Introduction to Form Based Application | The Front End, Usability & Accessibility   | Reponsive Web Design                              |
-|  3   | Web Forms vs ASP.NET MVC               | Introduction to C#                         | Introduction to C#                                |
-|  4   | ASP.NET MVC Application                | Introduction to Entity Framework           |                                                   |
-|  5   | jQuery, DataTables & jQueryUI          | Fundamental Client Side JavaScript         |                                                   |
-|  6   | Email & File Upload                    | Validation                                 | Moved so that we can demo send email to all users |
-|  7   | Client Side JavaScript Framework       | Security & Microsoft Identity              |                                                   |
-|  8   | Validation                             | Sending Email, File Upload & Signal R      |                                                   |
-|  9   | Optimisation                           | Optimisation                               |                                                   |
-|  10  | Web Application Security               | Modern JavaScript Web Development Approach |                                                   |
-|  11  | Deployment                             | Testing, Deployment and Evolution          | Introduced basic testing                          |
-|  12  | Exam Revision                          | No change                                  | No change                                         |
+| Week | Previous                               | Suggested                                  | Tutorial                           |
+|:----:|:---------------------------------------|:-------------------------------------------|:-----------------------------------|
+|  1   | Web Site Design & Usability            | Introduction to Web Development & ASP.NET  | Introduction to Visual Studio 2017 |
+|  2   | Introduction to Form Based Application | The Front End, Usability & Accessibility   | Reponsive Web Design               |
+|  3   | Web Forms vs ASP.NET MVC               | Introduction to C#                         | Introduction to C#                 |
+|  4   | ASP.NET MVC Application                | Entity Framework                           | Entity Framework                   |
+|  5   | jQuery, DataTables & jQueryUI          | Fundamental Client Side JavaScript         | Fundamental Client Side JavaScript |
+|  6   | Email & File Upload                    | Validation                                 | Validation                         |
+|  7   | Client Side JavaScript Framework       | Security & Microsoft Identity              | Security & Microsoft Identity      |
+|  8   | Validation                             | Sending Email, File Upload & Signal R      | Email, Upload & Signal R           |
+|  9   | Optimisation                           | Optimisation                               | Optimisation                       |
+|  10  | Web Application Security               | Modern JavaScript Web Development Approach | Modern JavaScript                  |
+|  11  | Deployment                             | Testing, Deployment and Evolution          | Testing, Deployment & Evolution    |
+|  12  | Exam Revision                          | No change                                  | No change                          |
 
-
-### Provided Project Files
-
-Solution files might not be provided. Even if these are provided they will be provided as a repo where the students will either do a clone or pull.
-
-| Week | Provided Solution Files                           |
-|:----:|:--------------------------------------------------|
-|  1   | Project with HTML Elements in Razor View          |
-|  2   | Project with Simple Bootstrap Showcase            |
-|  3   | Project with ASP.NET Web Forms                    |
-|      | Project with ASP.NET MVC                          |
-|  4   | Project with DatabaseFirst Approach               |
-|      | Project with Code First Approach                  |
-|  5   | jQuery DatePicker (using JQueryUI Library)        |
-|      | DataTables                                        |
-|  6   | Sample Page with Custom Validator using ViewModel |
-|  7   | Login                                             |
-|  8   | Send Email                                        |
-|      | FileUpload Storing Path in Database               |
-|      | FileUploading Strong Image as BLOB in Database    |
-|      | Editing Profile at Login (Adding Profile Picture) |
-|  9   | None                                              |
-|  10  | AngularJS                                         |
-|      | ReactJS                                           |
-|      | VueJS                                             |
-|  11  | None                                              |
-|  12  | None                                              |
 
 ### Summary of DoubtFire Submissions
 
@@ -64,7 +35,7 @@ Solution files might not be provided. Even if these are provided they will be pr
 |  6   | Custom Validation with View Model                                                       | PASS |
 |  7   | Login feature                                                                           | PASS |
 |  8   | Sending email to multiple users                                                         | PASS |
-|  9   | Screenshot of YSlow report of their web application                                     | PASS |
+|  9   | Screenshot of Lightnouse report of their web application                                | PASS |
 |      | Document detailing how their web application can be improved                            | PASS |
 |  10  | Modern Web Development (AngularJS, ReactJS or VueJS)                                    | PASS |
 |      | Document detailing modern web development approach in comparison to MVC                 | PASS |
