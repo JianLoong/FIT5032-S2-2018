@@ -7,13 +7,13 @@ Proposed Changes to FIT5032
 | Week | Previous                               | Suggested                                  | Tutorial                                          |
 |:----:|:---------------------------------------|:-------------------------------------------|:--------------------------------------------------|
 |  1   | Web Site Design & Usability            | Introduction to Web Development & ASP.NET  | Introduction to Visual Studio 2017                |
-|  2   | Introduction to Form Based Application | The Front End, Usability & Accessibility   |                                                   |
-|  3   | Web Forms vs ASP.NET MVC               | Introduction to C#                         |                                                   |
-|  4   | ASP.NET MVC Application                | ASP.NET MVC Database First & CodeFirst     |                                                   |
+|  2   | Introduction to Form Based Application | The Front End, Usability & Accessibility   | Reponsive Web Design                              |
+|  3   | Web Forms vs ASP.NET MVC               | Introduction to C#                         | Introduction to C#                                |
+|  4   | ASP.NET MVC Application                | Introduction to Entity Framework           |                                                   |
 |  5   | jQuery, DataTables & jQueryUI          | Fundamental Client Side JavaScript         |                                                   |
-|  6   | Email & File Upload                    | Validation & Usability                     | Moved so that we can demo send email to all users |
-|  7   | Client Side JavaScript Framework       | Microsoft Identity                         |                                                   |
-|  8   | Validation                             | Sending Email & File Upload                |                                                   |
+|  6   | Email & File Upload                    | Validation                                 | Moved so that we can demo send email to all users |
+|  7   | Client Side JavaScript Framework       | Security & Microsoft Identity              |                                                   |
+|  8   | Validation                             | Sending Email, File Upload & Signal R      |                                                   |
 |  9   | Optimisation                           | Optimisation                               |                                                   |
 |  10  | Web Application Security               | Modern JavaScript Web Development Approach |                                                   |
 |  11  | Deployment                             | Testing, Deployment and Evolution          | Introduced basic testing                          |
