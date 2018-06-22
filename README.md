@@ -2,38 +2,39 @@
 
 ## Outline
 
-| Week | Previous                               | Suggested                                  | Tutorial                           |
-|:----:|:---------------------------------------|:-------------------------------------------|:-----------------------------------|
-|  1   | Web Site Design & Usability            | Introduction to Web Development & ASP.NET  | Introduction to Visual Studio 2017 |
-|  2   | Introduction to Form Based Application | The Front End, Usability & Accessibility   | Reponsive Web Design               |
-|  3   | Web Forms vs ASP.NET MVC               | Introduction to C#                         | Introduction to C#                 |
-|  4   | ASP.NET MVC Application                | Entity Framework                           | Entity Framework                   |
-|  5   | jQuery, DataTables & jQueryUI          | Fundamental Client Side JavaScript         | Fundamental Client Side JavaScript |
-|  6   | Email & File Upload                    | Validation                                 | Validation                         |
-|  7   | Client Side JavaScript Framework       | Security & Microsoft Identity              | Security & Microsoft Identity      |
-|  8   | Validation                             | Sending Email, File Upload & Signal R      | Email, Upload & Signal R           |
-|  9   | Optimisation                           | Optimisation                               | Optimisation                       |
-|  10  | Web Application Security               | Modern JavaScript Web Development Approach | Modern JavaScript                  |
-|  11  | Deployment                             | Testing, Deployment and Evolution          | Testing, Deployment & Evolution    |
-|  12  | Exam Revision                          | No change                                  | No change                          |
+| Week | Previous                               | Suggested                                  | Tutorial                                   |
+|:----:|:---------------------------------------|:-------------------------------------------|:-------------------------------------------|
+|  1   | Web Site Design & Usability            | Introduction to Web Development & ASP.NET  | Introduction to Visual Studio 2017         |
+|  2   | Introduction to Form Based Application | The Front End, Usability & Accessibility   | Reponsive Web Design                       |
+|  3   | Web Forms vs ASP.NET MVC               | Introduction to C#                         | Introduction to C#                         |
+|  4   | ASP.NET MVC Application                | Entity Framework                           | Entity Framework                           |
+|  5   | jQuery, DataTables & jQueryUI          | Fundamental Client Side JavaScript         | Fundamental Client Side JavaScript         |
+|  6   | Email & File Upload                    | Validation                                 | Validation                                 |
+|  7   | Client Side JavaScript Framework       | Security & Microsoft Identity              | Security & Microsoft Identity              |
+|  8   | Validation                             | Sending Email, File Upload & Signal R      | Email, Upload & Signal R                   |
+|  9   | Optimisation                           | Optimisation                               | Optimisation                               |
+|  10  | Web Application Security               | Modern JavaScript Web Development Approach | Modern JavaScript Web Development Approach |
+|  11  | Deployment                             | Testing, Deployment and Evolution          | Testing, Deployment & Evolution            |
+|  12  | Exam Revision                          | No change                                  | No change                                  |
 
 
 ### Summary of DoubtFire Submissions
+
+There should be a detailed guide regarding Doubtfire submission which includes the number of words required in the report. Extensive research is not required.
 
 | Week | DoubtFire Submission                                                                    | Task |
 |:----:|:----------------------------------------------------------------------------------------|:-----|
 |  1   | Using HTML Helpers                                                                      | PASS |
 |  2   | Using Bootstrap                                                                         | PASS |
-|  3   | Document detailing the difference between Web Forms vs MVC                              | PASS |
-|      | Screenshot of form submission in MVC                                                    | PASS |
+|  3   | Document detailing the difference C# and Java or Python                                 | PASS |
 |  4   | Database First Approach                                                                 | PASS |
 |      | Code First Approach                                                                     | PASS |
 |      | Document detailing the advantages & disadvantages between Code First and Database First | PASS |
 |  5   | jQuery DatePicker                                                                       | PASS |
 |      | jQuery DataTables                                                                       | PASS |
-|      | Document detailing the advantages of using jQuery, jQueryUI, DataTables                 | PASS |
 |  6   | Custom Validation with View Model                                                       | PASS |
 |  7   | Login feature                                                                           | PASS |
+|      | Document detailing benefit of Social Login                                              | PASS |
 |  8   | Sending email to multiple users                                                         | PASS |
 |  9   | Screenshot of Lightnouse report of their web application                                | PASS |
 |      | Document detailing how their web application can be improved                            | PASS |
