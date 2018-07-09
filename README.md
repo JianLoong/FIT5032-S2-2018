@@ -36,7 +36,7 @@ There should be a detailed guide regarding Doubtfire submission which includes t
 |  7   | Login feature                                                                           | PASS |
 |      | Document detailing benefit of Social Login                                              | PASS |
 |  8   | Sending email to multiple users                                                         | PASS |
-|  9   | Screenshot of Lightnouse report of their web application                                | PASS |
+|  9   | Screenshot of Lighthouse report of their web application                                | PASS |
 |      | Document detailing how their web application can be improved                            | PASS |
 |  10  | Modern Web Development (AngularJS, ReactJS or VueJS)                                    | PASS |
 |      | Document detailing modern web development approach in comparison to MVC                 | PASS |
@@ -45,7 +45,7 @@ There should be a detailed guide regarding Doubtfire submission which includes t
 
 ### Summary of Challenges
 
-- Challenge exercises are broken down into several difficulty levels. I would expect that less than 5% of students would be able to do the Expert level challenge. 
+- Challenge exercises are broken down into several difficulty levels. 
 
 - No solutions will be provided for challenge exercises.
 
@@ -63,24 +63,6 @@ There should be a detailed guide regarding Doubtfire submission which includes t
 |      | **Medium** - Configuration of Domain Name                              |
 |      | **Hard** - Configuring HTTPS using either SSL Cert or CloudFlare       |
 |      | Expert - Deployment using Docker                                       |
-
-
-### Proposed Changes
-
-In the previous materials, one issue is that we did not "progressively" create our web application. This created the impression to the students that they should "create" & "recreate" their project multiple times in order to do the project properly. So, my suggestion is that we progressively build our web application to show case to them how its done. So we will build upon 1 main project. 
-
-One other common question, is that the lectures seem to be more focused on "coding" instead of the theory. It seems it is not clear to the students that it is important to have a theoractical understanding and also the ability to code.
-
-Here, we need to emphasis the concept of a full stack developer, in which case, they should at least have a solid understanding of various technologies.
-
-For advance students, my suggestion to introduce challenge exercise for each student with 4 levels of difficulty each week. 
-
-- Easy - (Most students should be able able to complete this with minimal research)
-- Medium - For students that want to learn more.
-- Hard - For students that want to learn more.
-- Expert - Experience & Research required to complete this task. Only recommended for advance students.
-
-The reason for this is because often times students with a lot of experience in web development may find it "too" easy. Of couse we do not want that. I expect less than 10% of students would be able to complete the expert level challenges. 
 
 ### Background Materials & Pre-Reading
 
