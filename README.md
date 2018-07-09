@@ -24,7 +24,8 @@ There should be a detailed guide regarding Doubtfire submission which includes t
 
 | Week | DoubtFire Submission                                                                    | Task |
 |:----:|:----------------------------------------------------------------------------------------|:-----|
-|  1   | Using HTML Helpers                                                                      | PASS |
+|  1   | Screeshot of computering running a MVC project.                                         | PASS |
+|      | Document detailing how MVC works                                                        | PASS |
 |  2   | Using Bootstrap                                                                         | PASS |
 |  3   | Document detailing the difference C# and Java or Python                                 | PASS |
 |  4   | Database First Approach                                                                 | PASS |
@@ -340,16 +341,10 @@ Projects for this weeek will demo how to improve optimisation.
 
 #### Proposed Learning Objective
 
-I think we should move this lab, to week 6 instead. So instead, of doing Angular in Week 7 we do Login and etc in Week 6 and Emailing in Week 7. So, during the email lab, we can show them how to send email to multiple users. This lab involves using Microsoft Identity. 
+The previous lab teaches really fundamental things regarding use Recaptha and Recaptha2, however there are more towards Javascript components so this lab is now changed to the way modern web applications are developed instead. For example, there is a need to understand that more web development are very different in comparison to the traditional development. 
 
-One important thing that was missed is that we did not teach students how to upload a specific user picture. So, they did alot of Googling.
+The showcase of the Gilt case study. Perhaps REA case study for the students. This is more towards software architecture. This is quite important for the students to know.
 
-Here I propose two projects. One project will use Chris approach where there is one central database. Another approach is to use two database, one of the user another for the business logic.
-
-#### Challenges
-
-- Hard - Using Facebook or Google Login 
-- Expert - Using Auth0 to login.
 
 ### Week 11 (Testing & Deployment)
 
