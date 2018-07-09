@@ -24,7 +24,7 @@ There should be a detailed guide regarding Doubtfire submission which includes t
 
 | Week | DoubtFire Submission                                                                    | Task |
 |:----:|:----------------------------------------------------------------------------------------|:-----|
-|  1   | Screeshot of computering running a MVC project.                                         | PASS |
+|  1   | Screeshot of computer running a MVC project.                                            | PASS |
 |      | Document detailing how MVC works                                                        | PASS |
 |  2   | Using Bootstrap                                                                         | PASS |
 |  3   | Document detailing the difference C# and Java or Python                                 | PASS |
@@ -41,7 +41,7 @@ There should be a detailed guide regarding Doubtfire submission which includes t
 |      | Document detailing how their web application can be improved                            | PASS |
 |  10  | Modern Web Development (AngularJS, ReactJS or VueJS)                                    | PASS |
 |      | Document detailing modern web development approach in comparison to MVC                 | PASS |
-|  11  | None                                                                                    | NONE |
+|  11  | Document detailing various Cloud Hosting platforms and their differences                | PASS |
 |  12  | None                                                                                    | NONE |
 
 ### Summary of Challenges
