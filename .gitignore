@@ -200,7 +200,8 @@ UpgradeLog*.XML
 UpgradeLog*.htm
 
 # SQL Server files
-*.mdf
+# Store MDF files in the remote repo
+#*.mdf
 *.ldf
 
 # Business Intelligence projects
