@@ -8,7 +8,7 @@ namespace FIT5032_W4_DatabaseFirst.Models
     public partial class FIT5032_Models : DbContext
     {
         public FIT5032_Models()
-            : base("name=FIT5032_Models")
+            : base("name=FIT5032_Models_Lol")
         {
         }
 
