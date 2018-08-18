@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Session and Cookie Demo";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+@using (Html.BeginForm())
+{
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label for="session" class="control-label col-md-2">Session</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="session" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="cookie" class="control-label col-md-2">Cookie</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="cookie" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
