@@ -17,33 +17,6 @@
 |  11  | Deployment                             | Testing, Deployment and Evolution          | Testing, Deployment & Evolution            |
 |  12  | Exam Revision                          | No change                                  | No change                                  |
 
-
-### Summary of DoubtFire Submissions
-
-There should be a detailed guide regarding Doubtfire submission which includes the number of words required in the report. Extensive research is not required.
-
-| Week | DoubtFire Submission                                                                    | Task |
-|:----:|:----------------------------------------------------------------------------------------|:-----|
-|  1   | Screeshot of computer running a MVC project.                                            | PASS |
-|      | Document detailing how MVC works                                                        | PASS |
-|  2   | Using Bootstrap                                                                         | PASS |
-|  3   | Document detailing the difference C# and Java or Python                                 | PASS |
-|  4   | Database First Approach                                                                 | PASS |
-|      | Code First Approach                                                                     | PASS |
-|      | Document detailing the advantages & disadvantages between Code First and Database First | PASS |
-|  5   | jQuery DatePicker                                                                       | PASS |
-|      | jQuery DataTables                                                                       | PASS |
-|  6   | Custom Validation with View Model                                                       | PASS |
-|  7   | Login feature                                                                           | PASS |
-|      | Document detailing benefit of Social Login                                              | PASS |
-|  8   | Sending email to multiple users                                                         | PASS |
-|  9   | Screenshot of Lighthouse report of their web application                                | PASS |
-|      | Document detailing how their web application can be improved                            | PASS |
-|  10  | Modern Web Development (AngularJS, ReactJS or VueJS)                                    | PASS |
-|      | Document detailing modern web development approach in comparison to MVC                 | PASS |
-|  11  | Document detailing various Cloud Hosting platforms and their differences                | PASS |
-|  12  | None                                                                                    | NONE |
-
 ### Summary of Challenges
 
 - Challenge exercises are broken down into several difficulty levels. 
@@ -64,4 +37,3 @@ There should be a detailed guide regarding Doubtfire submission which includes t
 |      | **Medium** - Configuration of Domain Name                              |
 |      | **Hard** - Configuring HTTPS using either SSL Cert or CloudFlare       |
 |      | Expert - Deployment using Docker                                       |
-
