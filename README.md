@@ -16,24 +16,3 @@
 |  10  | Web Application Security               | Modern JavaScript Web Development Approach | Modern JavaScript Web Development Approach |
 |  11  | Deployment                             | Testing, Deployment and Evolution          | Testing, Deployment & Evolution            |
 |  12  | Exam Revision                          | No change                                  | No change                                  |
-
-### Summary of Challenges
-
-- Challenge exercises are broken down into several difficulty levels. 
-
-- No solutions will be provided for challenge exercises.
-
-| Week | Challenge                                                              |
-|:----:|:-----------------------------------------------------------------------|
-|  1   | **Medium** - Using version control. (Bitbucket or Github)              |
-|  2   | **Easy** - Use Responsive Images and Youtube Embeds                    |
-|      | **Medium**  - Use Foundation CSS Framework,Yahoo Pure, Materialize CSS |
-|      | **Hard** - Use CSS Media Queries to manually create resposiveness      |
-|      | **Expert** - Use SASS or LESS                                          |
-|  3   | Project with ASP.NET Web Forms                                         |
-|      | Project with ASP.NET MVC                                               |
-|  4   | Project with DatabaseFirst Approach                                    |
-|  10  | **Easy** - Using Google Cloud                                          |
-|      | **Medium** - Configuration of Domain Name                              |
-|      | **Hard** - Configuring HTTPS using either SSL Cert or CloudFlare       |
-|      | Expert - Deployment using Docker                                       |
