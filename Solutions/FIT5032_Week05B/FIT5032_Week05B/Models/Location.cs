@@ -17,10 +17,12 @@ namespace FIT5032_Week05B.Models
         [Required]
         public string Description { get; set; }
 
+        [DisplayFormat(DataFormatString = "{0:###.########}")]
         [Column(TypeName = "numeric")]
         public decimal Latitude { get; set; }
 
         [Column(TypeName = "numeric")]
+        [DisplayFormat(DataFormatString = "{0:###.########}")]
         public decimal Longitude { get; set; }
     }
 }
