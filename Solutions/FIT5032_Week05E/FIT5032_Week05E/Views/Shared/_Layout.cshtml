@@ -6,22 +6,7 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-
-    <link rel="manifest" href="/manifest.json" />
-    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-    <script>
-        var OneSignal = window.OneSignal || [];
-        OneSignal.push(function () {
-            OneSignal.init({
-                appId: "0d2cad3c-7246-42c2-abf6-d9743274a906",
-                autoRegister: true,
-                notifyButton: {
-                    enable: true,
-                },
-            });
-        });
-    </script>
-
+    <script src="~/Scripts/tinymce/tinymce.min.js"></script>
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
