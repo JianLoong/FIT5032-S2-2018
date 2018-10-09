@@ -7,7 +7,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 ## Pull Request Process
 
 1. Ensure any install or build dependencies are removed before the end of the layer when doing a
-   build.  *** It is intentional that .mdf files are stored in this repository***
+   build.  **It is intentional that .mdf files are stored in this repository**
 2. Update the README.md with details of changes to the interface, this includes new environment
    variables, exposed ports, useful file locations and container parameters.
 
