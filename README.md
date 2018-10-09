@@ -16,3 +16,7 @@
 |  10  | Web Application Security               | Modern JavaScript Web Development Approach | Modern JavaScript Web Development Approach |
 |  11  | Deployment                             | Testing, Deployment and Evolution          | Testing, Deployment & Evolution            |
 |  12  | Exam Revision                          | No change                                  | No change                                  |
+
+## Contents
+
+This repository contents various solutions for FIT5032 - Internet Application Development. 
