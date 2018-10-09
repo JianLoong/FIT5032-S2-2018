@@ -1,4 +1,11 @@
-Thank you for your contribution to the FIT5032-S2-2018 repo.
+Thank you for your contribution to the FIT5032-S2-2018 repo
+
+Reference to issue
+
+#NO
+
+Description of the changes proposed in the pull request
+
 Before submitting this PR, please make sure:
 
 - [ ] Your code builds clean without any errors or warnings
