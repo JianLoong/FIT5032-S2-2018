@@ -1,4 +1,4 @@
-# ## What is :beers:[Hacktoberfest](Hacktoberfest):jack_o_lantern:?
+# ## What is :beers: Hacktoberfest:jack_o_lantern:?
 
 If you haven't already, you should :pencil: **[sign up here](https://hacktoberfest.digitalocean.com)**!
 
