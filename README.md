@@ -12,7 +12,7 @@
 |  6   | Validation                                 |
 |  7   | Security & Microsoft Identity              |
 |  8   | Email, Upload & Signal R                   |
-|  9   | Optimisation                               |
+|  9   | Optimization                               |
 |  10  | Modern JavaScript Web Development Approach |
 |  11  | Testing, Deployment & Evolution            |
 |  12  | No change                                  |
@@ -21,11 +21,17 @@
 
 This repository contents various solutions for FIT5032 - Internet Application Development.
 
+## Run Instructions
+
+Solutions are working out of the box. 
+
+.mdf files are intentionally in the repository so that it would be working.
+
 ## Contribute
 
 #### Getting Started
 
-- Fork this repo (button on top)
+- Fork this repository (button on top)
 - Clone on your local machine
 
 ```terminal
