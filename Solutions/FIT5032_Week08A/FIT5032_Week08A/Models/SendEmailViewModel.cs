@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc;
 
 namespace FIT5032_Week08A.Models
 {
@@ -13,6 +14,7 @@ namespace FIT5032_Week08A.Models
         public string Subject { get; set; }
 
         [Required(ErrorMessage = "Please enter the contents")]
+        [AllowHtml]
         public string Contents { get; set; }
 
     }

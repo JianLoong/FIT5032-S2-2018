@@ -7,7 +7,7 @@ namespace FIT5032_Week08A.Utils
     public class EmailSender
     {
         // Please use your API KEY here.
-        private const String API_KEY = "YOUR API KEY HERE";
+        private const String API_KEY = "";
 
         public void Send(String toEmail, String subject, String contents)
         {
@@ -15,7 +15,7 @@ namespace FIT5032_Week08A.Utils
             var from = new EmailAddress("noreply@localhost.com", "FIT5032 Example Email User");
             var to = new EmailAddress(toEmail, "");
             var plainTextContent = contents;
-            var htmlContent = "<p>" + contents + "</p>";
+            var htmlContent = contents;
             var msg = MailHelper.CreateSingleEmail(from, to, subject, plainTextContent, htmlContent);
             var response = client.SendEmailAsync(msg);
         }
