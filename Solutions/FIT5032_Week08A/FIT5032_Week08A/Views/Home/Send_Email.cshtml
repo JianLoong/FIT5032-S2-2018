@@ -60,10 +60,10 @@
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/tinymce")
+    <script>
+        tinymce.init({
+            selector: "#emailcontent"
+        })
+    </script>
 }
-<script src="~/Scripts/tinymce/tinymce.min.js"></script>
-<script>
-    tinymce.init({
-        selector: "#emailcontent"
-    })
-</script>

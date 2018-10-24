@@ -27,8 +27,8 @@ namespace FIT5032_Week08A
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
 
-            //bundles.Add(new ScriptBundle("~/bundles/tinymce").Include(
-            //    "~/Scripts/tinymce/tinymce.min.js"));
+            bundles.Add(new ScriptBundle("~/bundles/tinymce").Include(
+                "~/Scripts/tinymce/tinymce.min.js"));
         }
     }
 }
