@@ -17,7 +17,15 @@ namespace FIT5032_W4_DatabaseFirst.Controllers
         // GET: Students
         public ActionResult Index()
         {
-            return View(db.Students.ToList());
+
+            if (TempData["Info"] != null)
+                ViewBag.Info = TempData["Info"].ToString();
+
+            var students = db.Students.ToList();
+
+            var orderedStudents = students.OrderBy(s => s.LastName);
+
+            return View(orderedStudents);
         }
 
         // GET: Students/Details/5
@@ -52,8 +60,14 @@ namespace FIT5032_W4_DatabaseFirst.Controllers
             {
                 db.Students.Add(student);
                 db.SaveChanges();
+
+
+                TempData["Info"] = "Student has been created.";
+
                 return RedirectToAction("Index");
             }
+
+            ViewBag["Info"] = "Student is successfully added.";
 
             return View(student);
         }
@@ -84,7 +98,11 @@ namespace FIT5032_W4_DatabaseFirst.Controllers
             {
                 db.Entry(student).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                //return RedirectToAction("Index");
+
+                ViewBag.Info = "Student successfully edited";
+
+                return View(student);
             }
             return View(student);
         }
@@ -92,6 +110,9 @@ namespace FIT5032_W4_DatabaseFirst.Controllers
         // GET: Students/Delete/5
         public ActionResult Delete(int? id)
         {
+            if (TempData["Info"] != null)
+                ViewBag.Info = TempData["Info"].ToString();
+
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
@@ -110,9 +131,23 @@ namespace FIT5032_W4_DatabaseFirst.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             Student student = db.Students.Find(id);
-            db.Students.Remove(student);
-            db.SaveChanges();
-            return RedirectToAction("Index");
+
+            if (student.Units.Count() == 0)
+            {
+                db.Students.Remove(student);
+                db.SaveChanges();
+
+                TempData["Info"] = "Student has been deleted.";
+
+
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                ViewBag.Info = "Student cannot be deleted";
+
+                return View(student);
+            }
         }
 
         protected override void Dispose(bool disposing)

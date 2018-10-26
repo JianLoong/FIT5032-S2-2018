@@ -9,6 +9,11 @@
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
+    @if (ViewBag.Info != null)
+    {
+        <div class="alert alert-danger">@ViewBag.Info</div>
+    }
+
     <h4>Student</h4>
     <hr />
     <dl class="dl-horizontal">
@@ -30,11 +35,12 @@
 
     </dl>
 
-    @using (Html.BeginForm()) {
+    @using (Html.BeginForm())
+    {
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> 
+            <input type="submit" value="Delete" class="btn btn-default" />
             @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })
         </div>
     }

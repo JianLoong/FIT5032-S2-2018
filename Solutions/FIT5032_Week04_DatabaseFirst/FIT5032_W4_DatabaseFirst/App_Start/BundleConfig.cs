@@ -24,7 +24,8 @@ namespace FIT5032_W4_DatabaseFirst
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootstrap.css",  
+                      "~/Content/bootswatch.css",
                       "~/Content/site.css"));
         }
     }
