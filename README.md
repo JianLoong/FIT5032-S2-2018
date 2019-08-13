@@ -1,5 +1,4 @@
 # FIT5032-S2-2018
-
 ## Outline
 
 | Week | Tutorial                                   |
