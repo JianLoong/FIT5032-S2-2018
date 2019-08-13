@@ -23,7 +23,7 @@ This repository contents various solutions for FIT5032 - Internet Application De
 
 None of these materials provided here are the real lecture materials as they are considered to be the pre-reading and additional materials provided for the smooth running of the labs.
 
-As of 2019, this repository will be abandoned and the issues will remain open in the scenario where and update would be needed.
+As of 2019, this repository will be abandoned and the issues will remain open in the scenario where an update would be needed.
 
 Original plans to convert materials to markdown files were abandoned as well due to lack of time and training given the teaching team.
 
